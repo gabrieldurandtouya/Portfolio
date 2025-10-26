@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        (function(){
+            try{
+                var t = localStorage.getItem('theme');
+                if (t === 'dark' || t === 'true' || t === '1') {
+                    document.documentElement.setAttribute('data-theme','dark');
+                } else {
+                    document.documentElement.removeAttribute('data-theme');
+                }
+            } catch(e){}
+        })();
+    </script>
+    <link rel="stylesheet" href="style.css">
+  <title>Mes Formations - Gabriel</title>
+</head>
+<body>
+    
+    <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <div id="contenu-principal">
+        <header>
+            <h1 class="logo">Gabriel</h1>
+            <div class="header-center">
+                <div class="menu-deroulant">
+                    <button class="btn-sommaire">Sommaire ▾</button>
+                    <nav class="nav-content">
+                        <ul>
+                            <li><a href="html/parcours.html">Mon parcours</a></li>
+                            <li><a href="html/experience.html">Expériences professionnelles</a></li>
+                            <li><a href="html/formations.html">Mes études</a></li>
+                            <li><a href="html/projets.html">Projets</a></li>
+                            <li><a href="index.html">Accueil</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-right">
+                <a class="download-cv" href="lm 15.pdf" target="_blank">Télécharger le CV</a>
+                <div style="display:flex; align-items:center; gap:12px;">
+                  <a href="formations_en.html" class="lang-link" style="color:var(--text-color); text-decoration:none; font-weight:600;">EN</a>
+                  <label class="switch">
+                      <input type="checkbox" id="theme-switch">
+                      <span class="slider">
+                          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                              <path d="M12 3a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V4a1 1 0 0 1 1-1zm0 15a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1zm9-7a1 1 0 0 1-1 1h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1zM4 12a1 1 0 0 1-1 1H2a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1zm15.7-7.7a1 1 0 0 1 0 1.4l-1 1a1 1 0 0 1-1.4-1.4l1-1a1 1 0 0 1 1.4 0zM6.7 19.7a1 1 0 0 1-1.4-1.4l1-1a1 1 0 0 1 1.4 1.4l-1 1zm12.6 0l-1-1a1 1 0 0 1 1.4-1.4l1 1a1 1 0 0 1-1.4 1.4zM6.7 4.3l1 1a1 1 0 0 1-1.4 1.4l-1-1a1 1 0 0 1 1.4-1.4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10z"/>
+                          </svg>
+                          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                              <path d="M12.1 22c-4.9 0-9.1-3.8-9.1-8.5s4.2-8.5 9.1-8.5c.6 0 1.2.1 1.8.2C11.6 6 10 8.9 10 12.2c0 4.7 4.2 8.5 9.1 8.5h.3c-2 .8-4.2 1.3-6.5 1.3h-.8z"/>
+                          </svg>
+                      </span>
+                  </label>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <section class="section">
+                <h2>Mes Études 🎓</h2>
+                <div class="education-timeline">
+                    <div class="education-item">
+                        <div class="education-year">2025-2028</div>
+                        <div class="education-content">
+                            <h3>🎓 Pré-MSc Epitech Toulouse</h3>
+                            <h4>École Epitech</h4>
+                            <p class="education-description">
+                                Cycle Pré-MSc à Epitech Toulouse axé sur le développement informatique, l'innovation et la gestion de projet. Approfondissement des compétences techniques et travail sur des projets concrets.
+                            </p>
+                            <div class="education-subjects">
+                                <span class="subject-tag">Développement logiciel</span>
+                                <span class="subject-tag">Gestion de projet</span>
+                                <span class="subject-tag">Innovation</span>
+                                <span class="subject-tag">Programmation avancée</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education-item">
+                        <div class="education-year">2024-2025</div>
+                        <div class="education-content">
+                            <h3>🏬 Manager d'Unité Marchande (niveau Bac+2)</h3>
+                            <h4>Alternance dans le commerce</h4>
+                            <p class="education-description">
+                                Formation en alternance axée sur la gestion d'équipe, le pilotage d'un point de vente et le développement commercial. Acquisition de compétences en management, merchandising et gestion opérationnelle.
+                            </p>
+                            <div class="education-subjects">
+                                <span class="subject-tag">Management</span>
+                                <span class="subject-tag">Gestion d'équipe</span>
+                                <span class="subject-tag">Merchandising</span>
+                                <span class="subject-tag">Développement commercial</span>
+                                <span class="subject-tag">Alternance</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education-item">
+                        <div class="education-year">2023-2024</div>
+                        <div class="education-content">
+                            <h3>🛒 Formation Conseiller Vendeur (niveau Bac)</h3>
+                            <h4>Alternance dans le commerce</h4>
+                            <p class="education-description">
+                                Formation professionnelle en alternance axée sur la vente, le conseil client et la gestion commerciale. Acquisition de compétences pratiques en magasin et en relation client.
+                            </p>
+                            <div class="education-subjects">
+                                <span class="subject-tag">Vente</span>
+                                <span class="subject-tag">Conseil client</span>
+                                <span class="subject-tag">Gestion commerciale</span>
+                                <span class="subject-tag">Alternance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>Autres informations</h2>
+                <ul style="list-style:none; padding-left:0;">
+                    <li style="margin-bottom:18px; display:flex; align-items:center;">
+                        <span style="font-size:1.5rem; margin-right:12px;">🎉</span>
+                        <span>Bénévole DevFest Toulouse 2025</span>
+                    </li>
+                    <li style="margin-bottom:18px; display:flex; align-items:center;">
+                        <span style="font-size:1.5rem; margin-right:12px;">🎫</span>
+                        <span>Ambassadeur Pass Culture 2025-2026</span>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="quote-section">
+                <div class="animated-quote">
+                    <span class="quote-text">"L'apprentissage est un voyage sans fin"</span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://linkedin.com/in/gabriel-durand-touya-182ab3349/" target="_blank" class="social-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/gabrieldrdt" target="_blank" class="social-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    GitHub
+                </a>
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2025 Gabriel. Tous droits réservés.</p>
+                <p class="footer-subtitle">Développeur web passionné </p>
+                   <p><button id="reset-theme" class="reset-theme">Réinitialiser le thème</button></p>
+            </div>
+        </div>
+    </footer>
+
+    
+    <button class="scroll-to-top" id="scrollToTop">↑</button>
+
+<script src="script.js"></script>   
+</body>
+</html>
